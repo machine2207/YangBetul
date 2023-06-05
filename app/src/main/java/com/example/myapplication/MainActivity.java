@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         EditText editTextWeight = findViewById(R.id.weight2);
         EditText editTextHeight = findViewById(R.id.height2);
         Button button = findViewById(R.id.btnSubmit);
